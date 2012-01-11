@@ -1,0 +1,22 @@
+***Settings***
+Library  <filename.classname>  WITH NAME  <modifier>
+Test Setup  log  setup test is running
+Test Teardown  log test teardown is running
+
+***Test Cases***
+
+The test case description in detail          #Is only separated by a single space
+		Test Action name  Test action parameter, parameter2, ...     # note the two spaces between test action name and its parameter list
+
+
+***Keywords***
+The test case description in detail    	[Arguments]  ${arg}
+							[Documentation]  This user defined keyword simpliflies test operations and makes them easy to comprehend
+							:FOR  ${var}  IN  ${arg}
+            						\  log   Running test for a given test action  #Note two spaces, acting as indent in the loop body
+							\  <classname>.<TestMethod>     ${var}
+							\  print 'Test run'
+
+#Similarly, loops can run over the test cases themselves
+#The test arguments can also be passed singularly as a tuple containing this list or iterated over as in this example
+

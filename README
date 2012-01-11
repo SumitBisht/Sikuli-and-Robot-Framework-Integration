@@ -10,3 +10,7 @@ It can be downloaded from Robot Framework official site.
 
 Best regards,
 Mykhailo Moroz
+================================================
+Added are some of the changes that I had to make in this project to make it runnable.
+Also, the project contains some of the examples of the robot framework text file that is used to configure and run it.
+I am sharing it as it was quite difficult to write this piece of configuration inspite of ample documentation.

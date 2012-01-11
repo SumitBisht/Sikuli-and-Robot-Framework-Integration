@@ -1,0 +1,17 @@
+***Settings***
+Library  <filename.classname>  WITH NAME  <modifier>
+Test Setup  log  setup test is running
+Test Teardown  log test teardown is running
+
+***Test Cases***
+
+The test case description in detail          #Is only separated by a single space
+		Test Action name  Test action parameters     # note the two spaces between test action name and its parameters
+
+
+***Keywords***
+The test case description in detail    	[Arguments]  ${arg}
+							[Documentation]  This user defined keyword simpliflies test operations and makes them easy to comprehend
+            						log  Running test for a given test action
+							print 'Test run'
+
